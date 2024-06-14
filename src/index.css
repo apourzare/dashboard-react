@@ -1,0 +1,13 @@
+@import "./App.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    direction: rtl;
+  }
+  * {
+    font-family: "Vazirmatn UI FD", sans-serif;
+  }
+}
